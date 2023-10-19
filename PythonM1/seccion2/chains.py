@@ -28,5 +28,32 @@ print("abcabc".count("b"))
 str = 'programmer'
 print(str.casefold())
 
+#Ordenamiento
+#Funcion sorted(): Devuelve una nueva lista
+first_greek = ['omega', 'alpha', 'pi', 'gamma']
+first_greek_2 = sorted(first_greek)
 
+print(first_greek)
+print(first_greek_2)
+print()
 
+#Funcion sort(): no se crea una nueva lista
+first_greek = ['omega', 'alpha', 'pi', 'gamma']
+print(first_greek)
+
+first_greek.sort()
+print(first_greek)
+
+#Convertir numeros a cadena
+num = 10
+num2 = 1.2
+numStr = str(num)
+num2Str = str(num2)
+
+#Inversa a la anterior
+si = '13'
+sf = '1.3'
+itg = int(si)
+flt = float(sf)
+
+print(itg + flt)
